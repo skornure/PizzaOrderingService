@@ -1,0 +1,19 @@
+@model IEnumerable<Pizzas>
+
+@{
+    var pageName = ViewBag.CurrentCategory;
+    ViewData["Title"] = pageName;
+}
+
+<div class="wrap-filter-btn">
+    @await Component.InvokeAsync("CategoryMenu")
+</div>
+
+<h4>@pageName</h4>
+<hr />
+
+@foreach (var pizza in Model)
+{
+    @Html.Partial("PizzaSummary", pizza)
+}
+<br />

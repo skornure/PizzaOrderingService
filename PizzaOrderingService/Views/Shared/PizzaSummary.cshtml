@@ -1,0 +1,21 @@
+@model Pizzas
+
+
+    <div class="col-sm-4 col-lg-4 col-md-4">
+        <div class="thumbnail shop-card-content">
+            <img src="@Model.ImageUrl" alt="Picture of @Model.Name">
+            <div>
+                <div class="row">
+                    <h3>@Model.Name</h3>
+                </div>
+                <div class="row">
+                    <h5 class="pull-left"><b>Category: @Model.Category.Name</b></h5>
+                    <h5 class="pull-right">@Model.Price.ToString("c")</h5>
+                </div>
+            </div>
+            <div class="addToCart row" style="padding-bottom:3em">
+                <a class="shop-card-btn pull-left" asp-controller="ShoppingCart" asp-action="AddToShoppingCart" asp-route-pizzaId="@Model.Id">Add Pizza</a>
+                <a class="shop-card-btn pull-right" asp-controller="Pizzas" asp-action="DisplayDetails" asp-route-id="@Model.Id">Details</a>
+            </div>
+            </div>
+    </div>

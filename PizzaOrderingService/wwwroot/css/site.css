@@ -1,0 +1,255 @@
+﻿body {
+    height: 100%;
+    margin: 0;
+    padding-top: 50px;
+    background-repeat: repeat;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5rem !important;
+}
+
+input,
+select,
+textarea {
+    max-width: 320px;
+}
+
+/* Carousel */
+.carousel-caption p {
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+/* Make .svg files in the carousel display properly in older browsers */
+.carousel-inner .item img[src$=".svg"] {
+    width: 100%;
+}
+
+/* Hide/rearrange for smaller screens */
+@media screen and (max-width: 767px) {
+    /* Hide captions */
+    .carousel-caption {
+        display: none;
+    }
+}
+
+.carousel-holder {
+    margin-bottom: 30px;
+}
+
+.carousel-rol,
+.item {
+    border-radius: 4px;
+}
+
+.thumbnail .caption-full {
+        padding: 9px;
+        color: #333;
+}
+
+footer {
+    margin: 25px 0;
+}
+
+.navbar {
+    background-image: none;
+}
+
+.navbar-header > a {
+    font-size: 1.35em;
+    color: white;
+}
+
+.navbar-header:hover > a {
+    box-shadow: 1px 3px 7px rgba(0,0,0,0.25);
+}
+
+.navbar-inverse {
+    background-color: #e57373;
+    border-color: #ef5350;
+}
+
+.nav.navbar-nav.navbar-right li a {
+    color: white;
+    font-size: 1.2em;
+}
+
+.navbar .nav > li > a {
+    font-size: 1.2em;
+    color: white;
+}
+
+    .navbar .nav > li > a:hover {
+        box-shadow: 1px 3px 7px rgba(0,0,0,0.25);
+    }
+
+.slide-image {
+    min-height: 600px;
+    max-height: 600px;
+}
+
+#carousel-example-generic {
+    max-width: 800px;
+    min-width: 600px;
+    margin: 25px;
+}
+
+.review-stars {
+    max-width: 150px;
+}
+
+
+.wrap-filter-btn {
+    margin-top: 1.5em;
+    text-align: center;
+}
+
+.button, .shop-card-btn {
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 3px;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.5);
+    border: none;
+    text-align: center;
+    background-color: #e57373;
+    color: white;
+}
+
+.button {
+    padding: 0.8em 4em;
+    font-size: 14px;
+    margin-right: 1.5em;
+    margin-bottom: 1em;
+}
+
+.button:hover {
+    background-color: #ef9a9a;
+    box-shadow: 1px 6px 15px rgba(0,0,0,0.5);
+    text-decoration: none;
+    color: white;
+}
+
+
+.search-form-wrap {
+    margin-left: 10em !important;
+    margin-right: 0 !important;
+    margin-top: 1.5em;
+}
+
+.search-form {
+    display: inline-block;
+    margin-top: 1em;
+    margin-right: 0.5em;
+    width: 100%;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+
+.shop-card-btn {
+    padding: 0.4em 2em;
+    font-size: 10px;
+}
+
+.shop-card-btn:hover {
+    background-color: #ef9a9a;
+    text-decoration: none;
+    color: white;
+}
+
+.shop-card-content {
+    width: 100%;
+    height: 100%;
+    max-width: 25em;
+    max-height: 29em;
+}
+
+    .shop-card-content:hover {
+        box-shadow: 1px 6px 15px rgba(0,0,0,0.5);
+    }
+
+    .shop-card-content img {
+        height: 260px;
+        width: auto;
+    }
+
+.shop-card-content .row {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+
+.page-container {
+    position: relative;
+    min-height: 93.5vh;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 2.5rem;
+}
+
+.col-1-2 {
+    float: left;
+    width: 50%;
+}
+
+.product-info {
+    display: inline-block;
+    padding: 4px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+}
+
+.product-info .description {
+    margin-left: -3em;
+}
+
+.graph-block {
+      margin-top: 20em;
+}
+
+.col-1-2 {
+    float: left;
+    width: 50%;
+}
+
+.account-form-wrap {
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+#map {
+    height: 500px;
+    width: 500px;
+}

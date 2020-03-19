@@ -1,0 +1,15 @@
+
+@{
+    var ModelName = "Admin Pane";
+    ViewData["Title"] = ModelName;
+}
+
+<h2>@ModelName</h2>
+
+<div class="wrap-filter-btn">
+    <a asp-controller="Pizzas" asp-action="Index" class="button">Pizzas</a>
+    <a asp-controller="Categories" asp-action="Index" class="button">Categories</a>
+    <a asp-controller="Ingredients" asp-action="Index" class="button">Ingredients</a>
+    <a asp-controller="PizzaIngredients" asp-action="Index" class="button">Pizza's ingredients</a>
+    <a asp-controller="Orders" asp-action="Index" class="button">Orders</a>
+</div>

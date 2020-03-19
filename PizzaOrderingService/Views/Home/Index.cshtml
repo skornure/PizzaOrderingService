@@ -1,0 +1,8 @@
+﻿@model IEnumerable<Pizzas>
+
+@{
+    var pageName = "Home Page";
+    ViewData["Title"] = pageName;
+}
+
+@await Component.InvokeAsync("CarouselMenu")
